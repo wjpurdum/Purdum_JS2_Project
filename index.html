@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<html dir="rtl" lang="ar">
+<meta charset="UTF-8">
+<head>
+	<title>مؤشرات تطوير التكنولوجيا</title>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+</head>
+<body>
+<div class='container'>
+	<header></header>
+		<h1>مؤشرات تطوير التكنولوجيا</h1>
+
+        <!-- Set one - insert electricity -->
+
+	   <div class='dataSetOne row'>
+            <div class='countryList col-sm-1'>
+                <ul class='countries'>
+                    <br>
+                    <br>
+                    <li></li>
+                    <li></li>
+                    <li id="syriaElectricity" class='hover'>سوريا</li>
+                    <li id="jordanElectricity" class='hover'>الأردن</li>
+                    <li id="egyptElectricity" class='hover'>مصر</li>
+                    <li id="saudiElectricity" class='hover'>المملكة العربية السعودية</li>
+                    <li id="omanElectricity" class='hover'</li>
+                    <li id="kuwaitElectricity" class="hover">الكويت</li>
+                    <li id="iraqElectricity" class="hover">العـراق</li>
+                    <br>
+                </ul>
+
+            </div>
+                <div class='chartBox col-sm-3'>
+                    <canvas id="lineChart" width="400" height="400"></canvas>
+                </div>
+
+        <div class='col-sm-1 offset 1'></div>
+
+
+       
+
+
+
+        <!-- Set two - access to internet-->
+         <div class='countryList col-sm-1'>
+                <ul class='countries'>
+                    <br>
+                    <br>
+                    <li></li>
+                    <li></li>
+                    <li id="jordanInternet" class='hover'>الأردن</li>
+                    <li id="egyptInternet" class='hover'>مصر</li>
+                    <li id="saudiInternet" class='hover'>المملكة العربية السعودية</li>
+                    <li id="omanInternet" class='hover'</li>
+                    <li id="kuwaitInternet" class="hover">الكويت</li>
+                    <li id="iraqInternet" class="hover">العـراق</li>
+                    <br>
+                </ul>
+        </div>
+
+        <div class='populationBox col-sm-3'>
+                <canvas id='populationGrowthChart' width="400" height="400"></canvas>
+         </div>
+     </div>
+
+      <!-- Filler Div-->
+
+     <div class ="filler"></div>
+
+      <!-- Set three - technology-->
+
+        <div class="row dataSetOne">
+           <div class='countryList col-sm-2'>
+                <ul class='countries'>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <li id="SyriaCooperation" class='hover'>سوريا</li>
+                    <li id="JordanCooperation" class='hover'>الأردن</li>
+                    <li id="EgyptCooperation" class='hover'>مصر</li>
+                    <li id="IraqCooperation" class='hover'>العـراق</li>
+                </ul>
+            </div>
+         <div class='chartBox col-sm-4'>
+            <canvas id='test' width='200' height='200'></canvas>
+        </div>
+
+        </div>
+        
+    </div>
+	<footer></footer>
+
+	<script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="   crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.6/Chart.bundle.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+</div>
+</body>
+</html>
+

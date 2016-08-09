@@ -1,0 +1,59 @@
+.chartBox {
+	width: 400px;
+	height: 400px;
+	background-color: white;
+}
+
+.populationBox {
+	width: 400px;
+	height: 400px;
+	background-color: white;
+
+}
+
+.countryList {
+	font-size: 20px;
+
+	
+	
+}
+
+.countries {
+	list-style-type: none;
+
+}
+
+.hover:hover { 
+
+color: #78D58B;
+ }
+
+.container {
+	background-color: white;
+	color: black;
+}
+
+.dataSetOne {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-style: solid;
+	border-color: #237A70;
+	padding-left: 30px;
+	border-width: 2px;
+	padding-right: none;
+}
+
+.testDiv {
+	height: 800px;
+	width: 800px;
+	padding-top: 20px;
+}
+
+.filler {
+	height: 70px;
+}
+
+
+
+
+
